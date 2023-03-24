@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wallpaper.dog/large/5529913.jpg") no-repeat center/cover;
+}
+.container .form {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 20px;
+  padding: 40px 20px;
+}
+.container .form .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+.container .form .title p {
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+}
+.container .form .email, .container .form .pwd {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.container .form .email .icon, .container .form .pwd .icon {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+}
+.container .form .email input, .container .form .pwd input {
+  width: 85%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #ccc;
+}
+.container .form .forgot {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 0;
+}
+.container .form .forgot a {
+  font-size: 14px;
+  color: #7379E5;
+}
+.container .form .signin {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container .form .signin button {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to left, #959af7, rgb(244, 69, 244));
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container .form .accounts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0;
+}
+.container .form .accounts .subtitle p {
+  color: #ccc;
+}
+.container .form .accounts .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .form .accounts .icons div {
+  cursor: pointer;
+}
+.container .form .accounts .icons div:nth-child(1) svg {
+  color: blue;
+}
+.container .form .accounts .icons div:nth-child(2) svg {
+  color: #2196f3;
+}
+.container .form .accounts .icons div:nth-child(3) svg {
+  color: #D54B3A;
+}
+.container .form .accounts .icons div svg {
+  font-size: 32px;
+}
+.container .form .signup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0;
+}
+.container .form .signup .subtitle p {
+  color: #ccc;
+}
+.container .form .signup a {
+  color: #7379E5;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}/*# sourceMappingURL=LoginForm.module.css.map */

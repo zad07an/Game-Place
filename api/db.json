@@ -1,0 +1,177 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Pubg",
+      "title_lower": "pubg",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "action",
+      "thumbnail": "https://assets-prd.ignimgs.com/2022/03/09/pubgbattlegrounds-1646861967387.jpg",
+      "images": [
+        "https://assets-prd.ignimgs.com/2022/03/09/pubgbattlegrounds-1646861967387.jpg",
+        "https://cdn.vox-cdn.com/thumbor/mtGUd1ZndiL1Oihlqwyz7CJldvY=/0x0:3600x2025/1400x933/filters:focal(774x826:1350x1402):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66106049/xGw7_Y0Q.0.jpeg",
+        "https://cdn.vox-cdn.com/thumbor/7aUW2HYztZ6qhbh8pusFLkHzvhc=/0x0:2000x1125/1200x800/filters:focal(734x86:1054x406)/cdn.vox-cdn.com/uploads/chorus_image/image/71993041/TAEGO_key_art.0.jpg",
+        "https://img.redbull.com/images/q_auto,f_auto/redbullcom/2018/11/16/53c293b7-3a90-4930-9139-b8d1e69443c6/pubg",
+        "https://cdn-2.tstatic.net/tribunnews/foto/bank/images/pubg-mobile-sd.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mortal Kombat 11",
+      "title_lower": "mortal kombat",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "fighting",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/7/7e/Mortal_Kombat_11_cover_art.png",
+      "images": [
+        "https://portalpopline.com.br/wp-content/uploads/2022/01/mortal-kombat-filme-2021-800x450.jpg",
+        "https://store-images.s-microsoft.com/image/apps.3218.13674739434371576.46d1be43-7d5d-4b71-90b0-97829522e27b.4db46af7-ac3c-40a3-9f00-2dace21a6a0d?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF",
+        "https://assets.reedpopcdn.com/mortal-kombat-11-gets-a-ranked-mode-tomorrow-1560777600728.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/mortal-kombat-11-gets-a-ranked-mode-tomorrow-1560777600728.jpg",
+        "https://store-images.s-microsoft.com/image/apps.39057.14309935110546179.e7aee13c-c310-420d-ac11-4e8bb63904ee.717ab23d-7c6c-4d24-ae4b-44505602a0ec?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF",
+        "https://snworksceo.imgix.net/dtc/bf134d5d-808b-4b6c-b00d-776b672c9507.sized-1000x1000.jpg?w=1000"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Grand Theft Auto V",
+      "title_lower": "gta",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "action",
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_616x353.jpg?t=1678296348",
+      "images": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_616x353.jpg?t=1678296348",
+        "https://assets.xboxservices.com/assets/0b/17/0b179504-412d-4af7-9e00-3e3d92633577.jpg?n=GTA-V_GLP-Page-Hero-1084_1920x1080.jpg",
+        "https://qph.cf2.quoracdn.net/main-qimg-77434f4eb8c9764d9dbfbee082101e04-lq",
+        "https://i.ytimg.com/vi/RdGCN2mtgJQ/maxresdefault.jpg",
+        "https://elcomercio.pe/resizer/c6wx4ZBy2PhspUFDpKt-bY9n5Us=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DCGG75MK6FBMDDC4KPQ467OSII.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Call of Duty Black Ops 4",
+      "title_lower": "call of duty",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "shooter",
+      "thumbnail": "https://image.api.playstation.com/vulcan/img/cfn/113073miFl8n5KuJvbUODdSI8QAHJwVxQEnl2RAiJczrztnMIS-g3T2CyOvhthnE5hHJ7sRZ55W76sk30gfZWILvL0UAkzbT.png",
+      "images": [
+        "https://bnetproduct-a.akamaihd.net//2/f0237bcc69a719e4da6c10580f9088e9-CODBO4-Bnet_Game-Cart_Feature_3A_Standard-960x540-20190930.jpg?imwidth=&imdensity=2",
+        "https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt20400c2ed663e00a/63b5c9c33a02d31080ee4b94/call-of-duty-black-ops-4-section2-feature3.jpg?width=&format=webply&dpr=2&disable=upscale&quality=80",
+        "https://static.techspot.com/images/products/2018/pc-games/org/2018-10-12-product-5.jpg",
+        "https://www.xfire.com/wp-content/uploads/2022/08/details-scrapped-call-of-duty-black-ops-4-campaign-3.jpg",
+        "https://i.ytimg.com/vi/xoPdBTYtJ6c/maxresdefault.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Forza Horizon 5",
+      "title_lower": "forza horizon",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "racing",
+      "thumbnail": "https://assets-prd.ignimgs.com/2021/08/24/forza-horizon-5-button-fin-1629830068379.jpg",
+      "images": [
+        "https://www.cnet.com/a/img/resize/5cded6494c6ecfb6aad831adf5483377d5a3ca87/hub/2021/11/03/0f437d6c-d6b6-4b95-8291-d9b0c4b54d1d/forzahorizon5-launch-preview-04-16x9-wm.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "https://staticg.sportskeeda.com/editor/2022/01/42018-16410578353248-1920.jpg",
+        "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_674,q_auto:eco,w_1200/cms/uploads/qd9gmkev4bprggvkgcg4",
+        "https://i.ytimg.com/vi/qC9KSW8IhLQ/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/XCV6rNvm2nk/maxresdefault.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Need for Speed Heat",
+      "title_lower": "need for speed",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "racing",
+      "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/XemhVDBuAEVrQXUkJF57ZsdX.jpg",
+      "images": [
+        "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/XemhVDBuAEVrQXUkJF57ZsdX.jpg",
+        "https://club.dns-shop.ru/api/v1/image/getOriginal/q93_a972443dd4015d2950bc0d9715f457ca7d202fef49b0d339c8e8da02de2988e8.png/",
+        "https://i.ytimg.com/vi/Mc985c8NdxY/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/8jiTNodDe-Y/maxresdefault.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1281881/ss_6994870577a41882c458cd00d852d8092116c81c.1920x1080.jpg?t=1663269323"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "all-games",
+      "icon": "TbSwords"
+    },
+    {
+      "id": 2,
+      "category": "Action",
+      "icon": "TbSwords"
+    },
+    {
+      "id": 3,
+      "category": "Adventure",
+      "icon": "ForestOutlinedIcon"
+    },
+    {
+      "id": 4,
+      "category": "Puzzle",
+      "icon": "ExtensionOutlinedIcon"
+    },
+    {
+      "id": 5,
+      "category": "Role-playing",
+      "icon": "GiCheckedShield"
+    },
+    {
+      "id": 6,
+      "category": "Racing",
+      "icon": "DirectionsCarFilledOutlinedIcon"
+    },
+    {
+      "id": 7,
+      "category": "Strategy",
+      "icon": "FestivalOutlinedIcon"
+    },
+    {
+      "id": 8,
+      "category": "Sports",
+      "icon": "SportsSoccerOutlinedIcon"
+    },
+    {
+      "id": 9,
+      "category": "Free-to-play",
+      "icon": "SportsSoccerOutlinedIcon"
+    },
+    {
+      "id": 10,
+      "category": "Fighting",
+      "icon": "SportsSoccerOutlinedIcon"
+    },
+    {
+      "id": 11,
+      "category": "Shooter",
+      "icon": "SportsSoccerOutlinedIcon"
+    }
+  ],
+  "user": {
+    "id": 1,
+    "first_name": "Aram",
+    "last_name": "Zadoyan",
+    "username": "zad07an",
+    "email": "aramzadoyan5@gmail.com",
+    "password": "**********",
+    "picture": "https://lh3.googleusercontent.com/a/AGNmyxb1N9bhJK9cMojgk1FNyIBBRDCp_uM8QEt-qobz4w=s96-c-rg-br100"
+  },
+  "wish_list": [
+    {
+      "id": 5,
+      "title": "Forza Horizon 5",
+      "title_lower": "forza horizon",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit, voluptatibus, quisquam distinctio corporis beatae sapiente doloribus consequatur et magni voluptate commodi consequuntur reiciendis nisi ipsum. Odio fuga repudiandae illum, soluta aliquam dolores sapiente expedita iure dolorum, quasi eaque officia quis vitae impedit iusto asperiores voluptates ullam natus debitis labore voluptatibus corrupti numquam, qui perspiciatis! Ad modi maxime labore expedita.",
+      "genre": "racing",
+      "thumbnail": "https://assets-prd.ignimgs.com/2021/08/24/forza-horizon-5-button-fin-1629830068379.jpg",
+      "images": [
+        "https://www.cnet.com/a/img/resize/5cded6494c6ecfb6aad831adf5483377d5a3ca87/hub/2021/11/03/0f437d6c-d6b6-4b95-8291-d9b0c4b54d1d/forzahorizon5-launch-preview-04-16x9-wm.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "https://staticg.sportskeeda.com/editor/2022/01/42018-16410578353248-1920.jpg",
+        "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_674,q_auto:eco,w_1200/cms/uploads/qd9gmkev4bprggvkgcg4",
+        "https://i.ytimg.com/vi/qC9KSW8IhLQ/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/XCV6rNvm2nk/maxresdefault.jpg"
+      ]
+    }
+  ]
+}

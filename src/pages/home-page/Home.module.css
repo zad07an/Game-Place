@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0 0 0;
+}
+.container .hero {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.wallpapersafari.com/94/51/NUsItf.jpg") no-repeat center/cover;
+}
+.container .hero .hero_title h1 {
+  font-size: 80px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .container .hero .hero_title h1 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .container .hero .hero_title h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container .hero .hero_title h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .container .hero .hero_title h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container .hero .hero_title h1 {
+    font-size: 40px;
+  }
+}
+.container .hero .hero_button button {
+  padding: 0 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: orange;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .container .hero .hero_button button {
+    padding: 0 20px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+.container .hero .hero_button button svg {
+  font-size: 30px;
+}
+@media screen and (max-width: 500px) {
+  .container .hero .hero_button button svg {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=Home.module.css.map */

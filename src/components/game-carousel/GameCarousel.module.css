@@ -1,0 +1,53 @@
+.slider {
+  width: 80%;
+  height: 700px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slider .images {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+  transition: 0.3s ease-in-out;
+  white-space: nowrap;
+}
+.slider .images div {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.slider .prev, .slider .next {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2d;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  z-index: 100;
+  cursor: pointer;
+}
+.slider .prev:hover svg, .slider .next:hover svg {
+  color: orange;
+}
+.slider .prev svg, .slider .next svg {
+  font-size: 30px;
+  transition: 0.2s ease-in-out;
+}
+.slider .prev {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0, -50%);
+}
+.slider .next {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0, -50%);
+}/*# sourceMappingURL=GameCarousel.module.css.map */

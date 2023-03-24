@@ -1,0 +1,221 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2d;
+  position: fixed;
+  z-index: 999;
+  
+  .nav {
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-width: 960px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-size: 28px;
+        color: white;
+        font-weight: 600;
+
+        @media screen and (max-width: 560px) {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .overlay {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: rgba($color: #000000, $alpha: 0.5);
+      backdrop-filter: blur(2px);
+      z-index: 998;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      @media screen and (max-width: 960px) {
+        width: 300px;
+        height: calc(100vh - 60px);
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0;
+        position: absolute;
+        top: 60px;
+        right: -400px;
+        background: #2d2d2d;
+        padding-left: 20px;
+        transition: .2s ease-in-out;
+        z-index: 999;
+      }
+
+      @media screen and (max-width: 470px) {
+        width: 100%;
+        right: -100%;
+        padding: 0;
+      }
+
+      .list {
+        @media screen and (max-width: 960px) {
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          padding-left: 5px;
+          border-bottom: 1px solid #ccc;
+        }
+
+        @media screen and (max-width: 470px) {
+          padding: 0;
+        }
+
+        .link {
+          font-size: 18px;
+          color: white;
+          font-weight: 500;
+          position: relative;
+
+          @media screen and (max-width: 960px) {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+
+          @media screen and (max-width: 470px) {
+            justify-content: center;
+          }
+
+          p {
+            display: none;
+
+            @media screen and (max-width: 960px) {
+              display: block;
+            }
+          }
+
+          div {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: orange;
+            position: absolute;
+            top: -10px;
+            right: -15px;
+
+            @media screen and (max-width: 960px) {
+              display: none;
+            }
+
+            span {
+              font-size: 12px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 15px;
+
+      .user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .username {
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          flex-direction: column;
+          gap: 5px;
+
+          @media screen and (max-width: 560px) {
+            display: none;
+          }
+
+          span {
+            font-size: 14px;
+            color: white;
+          }
+          
+          p {
+            font-size: 12px;
+            color: #ccc;
+          }
+        }
+
+        .user_picture {
+          width: 40px;
+          height: 40px;
+          overflow: hidden;
+          border-radius: 50%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+
+      button {
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        background: white;
+        color: #2d2d2d;
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      .signup {
+        background: orange;
+        color: white;
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+
+      .hamburger {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        transition: .2s ease-in-out;
+  
+        @media screen and (max-width: 960px) {
+          display: flex;
+        }
+      }
+    }
+  }
+}

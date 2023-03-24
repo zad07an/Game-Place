@@ -1,0 +1,212 @@
+.loading, .error {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2d;
+  padding: 60px 0 40px;
+}
+.loading p, .error p {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #2d2d2d;
+  padding: 100px 0 40px;
+}
+.container .sections {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 20px;
+}
+@media screen and (max-width: 960px) {
+  .container .sections {
+    grid-template-columns: 1fr;
+  }
+}
+.container .sections .sidebar {
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #3d3d3d;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container .sections .sidebar .categories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 960px) {
+  .container .sections .sidebar .categories {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container .sections .sidebar .categories {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 660px) {
+  .container .sections .sidebar .categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .container .sections .sidebar .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 470px) {
+  .container .sections .sidebar .categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.container .sections .sidebar .categories div {
+  width: 100%;
+  height: 40px;
+  transition: 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 960px) {
+  .container .sections .sidebar .categories div {
+    border: 1px solid #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .sections .sidebar .categories div:hover {
+    background: #777;
+  }
+}
+.container .sections .sidebar .categories div div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .sections .sidebar .categories div div svg {
+  font-size: 20px;
+}
+.container .sections .sidebar .categories div a {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+@media screen and (max-width: 960px) {
+  .container .sections .sidebar .categories div a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container .sections .loading, .container .sections .error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3d3d3d;
+  border-radius: 10px;
+}
+.container .sections .loading p, .container .sections .error p {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.container .sections .games {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: #3d3d3d;
+  border-radius: 10px;
+  padding: 20px 20px 40px 20px;
+}
+.container .sections .games .form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 960px) {
+  .container .sections .games .form {
+    justify-content: center;
+  }
+}
+.container .sections .games .form div {
+  width: 400px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  border-radius: 15px;
+  background: #2d2d2d;
+  overflow: hidden;
+}
+@media screen and (max-width: 470px) {
+  .container .sections .games .form div {
+    width: 90%;
+  }
+}
+.container .sections .games .form div input {
+  border: none;
+  outline: 0;
+  background: none;
+  font-size: 16px;
+  color: #ccc;
+  padding-left: 20px;
+}
+.container .sections .games .form div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: #2d2d2d;
+  color: orange;
+}
+.container .sections .games .form div button svg {
+  font-size: 30px;
+}
+.container .sections .games .display {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px 0;
+}
+@media screen and (max-width: 1300px) {
+  .container .sections .games .display {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container .sections .games .display {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 560px) {
+  .container .sections .games .display {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 470px) {
+  .container .sections .games .display {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=Games.module.css.map */

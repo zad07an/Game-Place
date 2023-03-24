@@ -1,0 +1,193 @@
+.game {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width: 1100px) {
+  .game {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .game {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .game {
+    grid-template-columns: repeat(1, 1fr);
+    border-bottom: 1px solid #777;
+  }
+  .game:nth-last-child(1) {
+    border: none;
+  }
+}
+.game .remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game .remove button {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  background: none;
+  color: #ccc;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .game .remove button {
+    display: none;
+  }
+}
+.game .remove button svg {
+  font-size: 32px;
+  transition: 0.2s ease-in-out;
+}
+.game .remove button:hover svg {
+  color: orange;
+}
+.game .image {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .game .image {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .game .image {
+    width: 90px;
+    height: 90px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .game .image {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .game .image {
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-self: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .game .image {
+    width: 200px;
+    height: 200px;
+  }
+}
+.game .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.game .game_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 660px) {
+  .game .game_title {
+    height: 70px;
+  }
+}
+.game .game_title a {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .game .game_title a {
+    font-size: 22px;
+  }
+}
+.game .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game .download button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  background: orange;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .game .download button {
+    padding: 8px 32px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .game .download button {
+    padding: 6px 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .game .download button {
+    display: none;
+  }
+}
+.game .buttons_media {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .game .buttons_media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .game .buttons_media {
+    grid-template-columns: 1fr;
+  }
+}
+.game .buttons_media .download_button, .game .buttons_media .remove_button {
+  width: 100%;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  border: none;
+  background: orange;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .game .buttons_media .download_button, .game .buttons_media .remove_button {
+    display: flex;
+  }
+}
+.game .buttons_media .download_button svg, .game .buttons_media .remove_button svg {
+  font-size: 20px;
+}
+.game .buttons_media .remove_button {
+  background: #2d2d2d;
+  transition: 0.2s ease-in-out;
+}
+.game .buttons_media .remove_button:hover {
+  color: orange;
+}
+.game .buttons_media .remove_button svg {
+  font-size: 26px;
+}/*# sourceMappingURL=WishGame.module.css.map */

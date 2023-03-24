@@ -1,0 +1,15 @@
+.error {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2d;
+  padding: 60px 0 40px;
+
+  p {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+  }
+}

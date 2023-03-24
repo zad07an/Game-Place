@@ -1,0 +1,215 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2d;
+  position: fixed;
+  z-index: 999;
+}
+.header .nav {
+  width: 95%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 960px) {
+  .header .nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.header .nav .logo {
+  display: flex;
+  align-items: center;
+}
+.header .nav .logo a {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+}
+@media screen and (max-width: 560px) {
+  .header .nav .logo a {
+    font-size: 24px;
+  }
+}
+.header .nav .overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  z-index: 998;
+}
+.header .nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (max-width: 960px) {
+  .header .nav .menu {
+    width: 300px;
+    height: calc(100vh - 60px);
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 60px;
+    right: -400px;
+    background: #2d2d2d;
+    padding-left: 20px;
+    transition: 0.2s ease-in-out;
+    z-index: 999;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header .nav .menu {
+    width: 100%;
+    right: -100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 960px) {
+  .header .nav .menu .list {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header .nav .menu .list {
+    padding: 0;
+  }
+}
+.header .nav .menu .list .link {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+}
+@media screen and (max-width: 960px) {
+  .header .nav .menu .list .link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header .nav .menu .list .link {
+    justify-content: center;
+  }
+}
+.header .nav .menu .list .link p {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .header .nav .menu .list .link p {
+    display: block;
+  }
+}
+.header .nav .menu .list .link div {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: orange;
+  position: absolute;
+  top: -10px;
+  right: -15px;
+}
+@media screen and (max-width: 960px) {
+  .header .nav .menu .list .link div {
+    display: none;
+  }
+}
+.header .nav .menu .list .link div span {
+  font-size: 12px;
+  color: white;
+}
+.header .nav .buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+.header .nav .buttons .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header .nav .buttons .user .username {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 5px;
+}
+@media screen and (max-width: 560px) {
+  .header .nav .buttons .user .username {
+    display: none;
+  }
+}
+.header .nav .buttons .user .username span {
+  font-size: 14px;
+  color: white;
+}
+.header .nav .buttons .user .username p {
+  font-size: 12px;
+  color: #ccc;
+}
+.header .nav .buttons .user .user_picture {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.header .nav .buttons .user .user_picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .nav .buttons button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.header .nav .buttons .signup {
+  background: orange;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .header .nav .buttons .signup {
+    display: none;
+  }
+}
+.header .nav .buttons .hamburger {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+@media screen and (max-width: 960px) {
+  .header .nav .buttons .hamburger {
+    display: flex;
+  }
+}/*# sourceMappingURL=Navbar.module.css.map */

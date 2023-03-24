@@ -1,0 +1,146 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.box .thumbnail {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  position: relative;
+}
+@media screen and (max-width: 1100px) {
+  .box .thumbnail {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .box .thumbnail {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .box .thumbnail {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .box .thumbnail {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .box .thumbnail {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .box .thumbnail {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .box .thumbnail {
+    width: 200px;
+    height: 200px;
+  }
+}
+.box .thumbnail:hover {
+  filter: saturate(150%);
+}
+.box .thumbnail:hover img {
+  scale: 1.1;
+}
+.box .thumbnail div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+  z-index: 100;
+  transition: 0.2s ease-in-out;
+  background: rgba(0, 0, 0, 0.7);
+}
+.box .thumbnail div:hover {
+  opacity: 1;
+}
+.box .thumbnail div span {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.box .thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.2s ease-in-out;
+}
+.box .title {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px 0;
+}
+.box .title p {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .box .title p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .box .title p {
+    font-size: 20px;
+  }
+}
+.box .buttons {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .buttons button {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  outline: 0;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  background: orange;
+}
+.box .buttons button svg {
+  color: white;
+  font-size: 18px;
+}/*# sourceMappingURL=Game.module.css.map */
