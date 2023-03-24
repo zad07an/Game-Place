@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { removeFromWishList } from '../../redux/slices/WishListSlice';
 
-const WishGame = memo(({game}) => {
+const WishGame = ({game}) => {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -34,11 +34,11 @@ const WishGame = memo(({game}) => {
       </div>
     </div>
   )
-}, (prevProps, nextProps) => {
+}
+
+export default memo(WishGame, (prevProps, nextProps) => {
   if (JSON.stringify(prevProps) === JSON.stringify(nextProps)) {
     return true;
   }
   return false;
 })
-
-export default WishGame

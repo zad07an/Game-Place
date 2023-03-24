@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import {FiDownload} from 'react-icons/all'
 import styles from './Game.module.css'
 
-const  Game = memo(({game}) => {
+const  Game = ({game}) => {
 
   const navigate = useNavigate();
 
@@ -23,11 +23,11 @@ const  Game = memo(({game}) => {
       </div>
     </div>
   )
-}, (prevProps, nextProps) => {
+}
+
+export default memo(Game, (prevProps, nextProps) => {
   if (JSON.stringify(prevProps) === JSON.stringify(nextProps)) {
     return true
   }
   return false
 })
-
-export default Game

@@ -19,9 +19,6 @@ const Games = () => {
   const dispatch = useDispatch();
   const {data, status} = useSelector(state => state.games);
   const {cats, status: catStatus} = useSelector(state => state.cat);
-  const countRef = useRef(0);
-  countRef.current++
-  console.log("Games rendered " + countRef.current + " times")
 
   const activeLink = ({isActive}) => ({color: isActive ? "orange" : null})
   const handleSubmit = useCallback((e) => {

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import SportsEsportsOutlinedIcon from '@mui/icons-material/SportsEsportsOutlined';
 import {container, hero, hero_title, hero_button} from './Home.module.css';
 import { useNavigate } from 'react-router-dom';
@@ -8,9 +8,6 @@ const Home = () => {
 
   tabTitle("Home")
   const navigate = useNavigate();
-  const countRef = useRef(0);
-  countRef.current++
-  console.log("Home rendered " + countRef.current + " times")
 
   return (
     <section className={container}>

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef } from 'react'
+import React, { useCallback, useEffect, useMemo } from 'react'
 import { useParams } from 'react-router-dom';
 import { addToWishList, removeFromWishList } from '../../redux/slices/WishListSlice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -19,9 +19,6 @@ const SingleGame = () => {
   const dispatch = useDispatch();
   const {game, status} = useSelector(state => state.single_game);
   const {wish_list_data} = useSelector(state => state.wish_list);
-  const countRef = useRef(0);
-  countRef.current++
-  console.log("Single game rendered " + countRef.current + " times")
   tabTitle(`${game?.title}`)
 
   useEffect(() => {

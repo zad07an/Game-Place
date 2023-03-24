@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom';
 import { fetchWishList } from '../../redux/slices/WishListSlice';
@@ -15,9 +15,6 @@ const WishList = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const {wish_list_data, status} = useSelector(state => state.wish_list);
-  const countRef = useRef(0);
-  countRef.current++
-  console.log("Wish rendered " + countRef.current + " times")
 
   useEffect(() => {
     dispatch(fetchWishList())

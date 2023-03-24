@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Layouts from './layouts/Layouts'
 import Games from './pages/games-page/Games'
@@ -10,12 +10,6 @@ import WishList from './pages/wish-list-page/WishList'
 import './styles/global.css'
 
 const App = () => {
-
-  const countRef = useRef(0);
-
-  countRef.current++
-  console.log("App rendered " + countRef.current + " times")
-
   return (
     <div className='app'>
       <Routes>
